@@ -4,9 +4,22 @@ A simple Student Management REST API built using **FastAPI** and **Python**. Thi
 
 ## 🚀 Live Demo
 
-**Live API:** https://student-crud-api-8i49.onrender.com
+**Swagger UI / API:**  
+https://student-crud-api-8i49.onrender.com
 
-**Swagger API Documentation:** https://student-crud-api-8i49.onrender.com/docs
+> The root URL opens the interactive Swagger documentation directly.
+
+### Main Endpoint
+
+`/students/`
+
+Supports:
+
+- `POST /students/`
+- `GET /students/`
+- `GET /students/{student_id}`
+- `PUT /students/{student_id}`
+- `DELETE /students/{student_id}`
 
 ## ✨ Features
 
@@ -45,26 +58,6 @@ student-crud/
 ├── .gitignore
 └── README.md
 ```
-
-## 📋 Student Fields
-
-| Field    | Description             |
-| -------- | ----------------------- |
-| id       | Unique student ID       |
-| name     | Student's name          |
-| email    | Student's email address |
-| course   | Course name             |
-| semester | Current semester        |
-
-## 🔗 API Endpoints
-
-| Method | Endpoint                 | Description         |
-| ------ | ------------------------ | ------------------- |
-| POST   | `/students/`             | Create a student    |
-| GET    | `/students/`             | Get all students    |
-| GET    | `/students/{student_id}` | Get a student by ID |
-| PUT    | `/students/{student_id}` | Update a student    |
-| DELETE | `/students/{student_id}` | Delete a student    |
 
 ## ⚙️ Installation and Setup
 
