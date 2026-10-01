@@ -4,9 +4,9 @@ A simple Student Management REST API built using **FastAPI** and **Python**. Thi
 
 ## 🚀 Live Demo
 
-**Live API:** https://student-crud-api-i849.onrender.com
+**Live API:** https://student-crud-api-8i49.onrender.com
 
-**Swagger API Documentation:** https://student-crud-api-i849.onrender.com/docs
+**Swagger API Documentation:** https://student-crud-api-8i49.onrender.com/docs
 
 ## ✨ Features
 
