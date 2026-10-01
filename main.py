@@ -4,9 +4,9 @@ from routes.student_routes import router as student_router
 app = FastAPI(
     title="Student CRUD API",
     description="A simple Student Management REST API using FastAPI",
-    version="1.0.0"
+    version="1.0.0",
+    docs_url="/"
 )
-
 app.include_router(student_router)
 
 
