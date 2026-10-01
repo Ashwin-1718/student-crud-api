@@ -7,7 +7,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Register Student Routes
 app.include_router(student_router)
 
 
